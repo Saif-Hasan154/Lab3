@@ -1,0 +1,54 @@
+#box1{
+    height: 200px;
+    width: 200px; 
+    font-size: 175px;
+    text-align: center;
+    background-image: url(1.jpg);
+    animation:  Myslide1 ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+@keyframes Myslide1{
+from{ margin-left: 100%;}
+to{ margin-left: 0%;}
+}
+#box2{
+    height: 250px;
+    width: 250px; 
+    font-size: 175px;
+    text-align: center;
+    background-image: url(2.jpg);
+    animation:  Myslide2 ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+@keyframes Myslide2{
+from{ margin-left: 0%;}
+to{ margin-left: 100%;}
+}
+#box3{
+    height: 200px;
+    width: 200px; 
+    font-size: 175px;
+    text-align: center;
+    background-image: url(3.jpg);
+    animation:  Myslide3 ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+@keyframes Myslide3{
+from{ margin-left: 100%;}
+to{ margin-left: 0%;}
+}

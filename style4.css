@@ -1,0 +1,21 @@
+a:link{
+    color: blue;
+}
+a:visited{
+    color: aqua;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: blueviolet;
+}
+button:hover{
+    color: aqua;
+}
+button:active{
+    color: rgb(187, 6, 75);
+}
+.fa-youtube{
+    color: brown;
+}
